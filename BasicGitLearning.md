@@ -14,7 +14,7 @@ Bash commands leant :-
 
 git commands
 
-first, go to github.com and log in. click on new repository, name it and then ok. you get the https link. take that link, copy paste it using rightclick on bash. and then we need to clone the git. use: **git clone <url> <name of the repository that you want to save it as in your laptop>**
+first, go to github.com and log in. click on new repository, name it and then ok. you get the https link. take that link, copy paste it using right click on bash. and then we need to clone the git. use: **git clone <url> <name of the repository that you want to save it as in your laptop>**
 
 we get a copy of the repository on your laptop in the location you saved it in (to see which location that is, use pwd) as a folder
 
@@ -24,7 +24,7 @@ now open a file, (any file), and save it in that folder thats created. now, retu
 
 use git status :-
 
-it'll tell you if theres any files added to the git or not. the new file you saved in the repo folder on your laptop shows up in red text. it means that file hasnt been
+it'll tell you if there's any files added to the git or not. the new file you saved in the repo folder on your laptop shows up in red text. it means that file hasn't been
 
 put to git yet. 
 
@@ -42,5 +42,13 @@ syntax :- **git add <filename><.fileextention>**
 
 
 
+then use git commit :- 
 
+syntax :- **git commit -m"message to display"**
+
+
+
+then use git push:-
+
+syntax :- **git push**
 
